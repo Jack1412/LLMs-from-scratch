@@ -425,7 +425,7 @@ print("\n ================ 7.8 Evaluating the finetuned LLM ================")
 import os
 from openai import OpenAI
 
-client = OpenAI(api_key="sk-29df3a9e309a4ff090c7dc4f8dc30ec5", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="***", base_url="https://api.deepseek.com")
 
 def query_model(prompt):
     response = client.chat.completions.create(
